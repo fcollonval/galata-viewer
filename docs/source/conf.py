@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'JupyterLab Galata Viewer'
+copyright = '2021, Project Jupyter'
+author = 'JupyterLab Development Team'
 
 release = '0.1'
 version = '0.1.0'
@@ -13,9 +13,6 @@ version = '0.1.0'
 
 extensions = [
     'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 ]
 
@@ -31,6 +28,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_extra_path = ['playwright-report']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
